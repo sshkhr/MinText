@@ -10,6 +10,7 @@ Tutorials
    :maxdepth: 2
 
    tutorials/1_Parallelization_Basics
+   tutorials/2_Data_Parallel_and_FSDP
 
 Indices and tables
 ==================
