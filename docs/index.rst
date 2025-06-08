@@ -1,15 +1,15 @@
 Welcome to MinText's documentation!
 ==================================
 
-MinText is a minimal JAX-based framework for text processing and language modeling.
+MinText is a minimalistic 3D-parallelism distributed training and inference framework for LLMs in JAX
 
 Tutorials
----------
+=========
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
-   tutorials/1_JAX_Parallelization
+   tutorials/1_Parallelization_Basics
 
 Indices and tables
 ==================
