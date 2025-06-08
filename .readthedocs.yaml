@@ -9,11 +9,6 @@ build:
   os: ubuntu-24.04
   tools:
     python: "3.10"
-  jobs:
-    post_checkout:
-      # Install pandoc for nbsphinx to convert notebooks
-      - sudo apt-get update
-      - sudo apt-get install -y pandoc
 
 # Build documentation with Sphinx
 sphinx:
