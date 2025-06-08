@@ -1,5 +1,5 @@
 Welcome to MinText's documentation!
-================================
+==================================
 
 MinText is a minimal JAX-based framework for text processing and language modeling.
 

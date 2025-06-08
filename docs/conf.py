@@ -47,13 +47,13 @@ nbsphinx_allow_errors = True
 
 # This is processed by Jinja2 and inserted before each notebook
 nbsphinx_prolog = r"""
-{% set docname = 'docs/' + env.doc2path(env.docname, base=None) %}
+{% set docname = env.docname %}
 
 .. note::
 
-   This page was generated from `{{ docname }}`__.
+   This page was generated from a Jupyter notebook.
    
-   __ https://github.com/sshkhr/MinText/blob/main/{{ docname }}
+   `View the notebook on GitHub <https://github.com/sshkhr/MinText/blob/main/docs/{{ docname }}.ipynb>`__
 """
 
 # Create necessary folders for Sphinx
