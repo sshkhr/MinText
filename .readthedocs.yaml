@@ -12,8 +12,8 @@ build:
   jobs:
     post_checkout:
       # Install pandoc for nbsphinx to convert notebooks
-      - apt-get update
-      - apt-get install -y pandoc
+      - sudo apt-get update
+      - sudo apt-get install -y pandoc
 
 # Build documentation with Sphinx
 sphinx:
