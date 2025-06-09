@@ -46,15 +46,7 @@ nbsphinx_execute = 'never'
 nbsphinx_allow_errors = True
 
 # This is processed by Jinja2 and inserted before each notebook
-nbsphinx_prolog = r"""
-{% set docname = env.docname %}
-
-.. note::
-
-   This page was generated from a Jupyter notebook.
-   
-   `View the notebook on GitHub <https://github.com/sshkhr/MinText/blob/main/docs/{{ docname }}.ipynb>`__
-"""
+# nbsphinx_prolog removed - using shield badges in notebooks instead
 
 # Create necessary folders for Sphinx
 os.makedirs(os.path.join(os.path.dirname(__file__), '_static'), exist_ok=True)
