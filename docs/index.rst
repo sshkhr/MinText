@@ -11,6 +11,7 @@ Tutorials
 
    tutorials/1_Parallelization_Basics
    tutorials/2_Data_Parallel_and_FSDP
+   tutorials/3_Tensor_Parallel_and_Transformers
 
 Indices and tables
 ==================
